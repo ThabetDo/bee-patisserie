@@ -1,0 +1,80 @@
+body {
+    /*background-image: url("../img/honeyBg02.svg");*/
+}
+
+.bg-orange {
+    background-color: #2e2a2a;
+}
+
+/*footer .border-bottom {*/
+/*    border-color: #fffefc !important;*/
+/*}*/
+
+.card {
+    background-color: transparent;
+    margin: 20px;
+    backdrop-filter: blur(4px);
+    border: none;
+    box-shadow: 0 3px 6px 0 #00000042;
+}
+
+main {
+    padding-bottom: 0;
+}
+
+.btn {
+    margin-bottom: 76px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*border-color: #7d5847;*/
+    /*color: white;*/
+    backdrop-filter: blur(20px);
+}
+
+.card-body {
+    font-family: cairo, serif;
+    display: flex;
+    justify-content: space-between;
+    color: #343a40;
+}
+
+.name,
+.price {
+    min-width: max-content;
+}
+
+.dotted {
+    /*margin: 0 5px;*/
+    /*transform: translateY(-6px);*/
+    /*width: 100%;*/
+    display: none;
+    /*border-bottom: dotted #ffc251;*/
+    /*border-bottom: dotted #ffc;*/
+}
+
+header .card:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    background: #00000050;
+    /*background: #4e4f3d40;*/
+    bottom: 0;
+}
+
+header .card {
+    font-size: 65px;
+    font-weight: 800;
+    background-image: url(../img/cat/croissant.jpg);
+    background-size: cover;
+    aspect-ratio: 1.5/1;
+    background-position: center center;
+}
+
+header .card .card-body {
+    font-family: 'Fredoka One', cursive !important;
+    font-weight: normal;
+    align-items: center;
+    z-index: 1;
+}
